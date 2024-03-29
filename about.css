@@ -1,5 +1,4 @@
 /* Reset default browser styles */
-/* Reset default browser styles */
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +8,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color:navy;
+    background-color: navy;
 }
-#title{
-    width: 300px;
-}
+
 header {
     background-color: #333;
     color: #fff;
@@ -38,8 +35,9 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-.navhead:hover{
-    color:yellow;
+
+.navhead:hover {
+    color: yellow;
 }
 
 .container {
@@ -49,53 +47,6 @@ nav ul li a {
     background-color: #fff;
 }
 
-section {
-    margin-bottom: 30px;
-    /* Add padding */
-    border: 1px solid #ccc; /* Add border */
-    padding: 20px; /* Add padding */
-    box-shadow: 0 7px 9px lightblue;
-}
-
-section h2 {
-    margin-bottom: 10px;
-}
-
-.team-member {
-    text-align: center;
-}
-
-.team-member img {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.container .p {
-    text-align: justify;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url("images/about/Untitled design (1).png");
-   
-}
-.header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fffffe;
-    border-radius: 8px;
-    
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 .college-photo {
     width: 100%;
     max-width: 500px;
@@ -103,47 +54,64 @@ body {
     display: block;
     border-radius: 8px;
 }
+
 .logo {
-    width: 200px; /* Adjust as needed */
-    height: 150px; /* Adjust as needed */
+    width: 200px;
+    height: 150px;
     display: block;
     margin: 20px auto;
 }
+
 .socialIcons {
     text-align: center;
     margin-top: 20px;
 }
+
 .socialIcons ul {
     list-style: none;
     padding: 0;
 }
+
 .socialIcons ul li {
     display: inline-block;
     margin-right: 10px;
 }
+
 .socialIcons ul li:last-child {
     margin-right: 0;
 }
+
 .socialIcons ul li a {
     color: #333;
     text-decoration: none;
     font-size: 24px;
     transition: color 0.3s ease;
 }
+
 .socialIcons ul li a:hover {
     color: #007bff;
 }
-img{
+
+img {
     width: 400px;
-    height:500px;
-   margin-left:200px;
+    height: 500px;
+    margin-left: 200px;
 }
 
 @media screen and (max-width: 768px) {
-    img{
-        align-items: center;
+    img {
         width: 200px;
         height: 300px;
-        margin-right: 80%;
+        margin-left: 0;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        width: 150px;
+        height: 200px;
     }
 }
