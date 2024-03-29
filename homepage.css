@@ -16,7 +16,8 @@
   animation: marquee 15s linear infinite;
   font-size: 13.5px;
   text-align: center;
-  border-color: 2px solid red; /* Animation for continuous movement */
+  border-color: 2px solid red;
+  z-index: 1000; /* Animation for continuous movement */
 }
 
 @keyframes marquee {
