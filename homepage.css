@@ -138,7 +138,7 @@
 .banner {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("2024.gif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("2024.gif");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -414,4 +414,45 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
+}
+/* CSS for screens wider than 400px */
+@media (min-width: 400px) {
+  .date-container{
+  max-width: 350px;
+  margin: 5px auto;
+  background-color: none;
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: pulse 2s infinite alternate;
+  color: rgb(0, 255, 255);
+  font-size: 18px;
+  font-style: oblique;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.date-text {
+  font-size: 24px; /* Adjust font size for the message */
+  font-weight: bold; /* Make the message bold */
+  color:orange; /* Choose a vibrant color for the message */
+  animation: bounce 1s infinite alternate; /* Add a bouncing animation */
+}
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px); /* Adjust the bounce height */
+  }
+}
+
 }

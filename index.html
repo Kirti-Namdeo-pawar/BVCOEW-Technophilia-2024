@@ -3,49 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Background</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<style>
+  <title>BVCOEW-Technophilia 2024</title>
+  <style>
     body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
 
-.video-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+    .video-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
 
-#video-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  /* Ensures the video covers the entire container */
-}
+    #video-bg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
-</style>
+    @media screen and (max-width: 400px) {
+      #video-bg {
+        width: auto;
+        height: auto;
+      }
+    }
+  </style>
+</head>
 <body>
   <div class="video-container">
     <video autoplay muted loop id="video-bg">
-      <source src="video6.mp4" type="video/mp4">
+      <source src="Gold Grand Opening Celebration Invitation Video.mp4" type="video/mp4">
       <!-- You can add additional source elements for different video formats -->
       Your browser does not support the video tag.
     </video>
   </div>
 
   <script>
-    setTimeout(function(){
+   /* setTimeout(function(){
       window.location.href = "index1.html";
-    }, 6000); // Redirect after 4 seconds (4000 milliseconds)
+    }, 6000); // Redirect after 6 seconds (6000 milliseconds)*/
   </script>
 </body>
 </html>
