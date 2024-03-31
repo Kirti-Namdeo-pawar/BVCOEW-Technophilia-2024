@@ -418,7 +418,7 @@
 /* CSS for screens wider than 400px */
 @media (min-width: 400px) {
   .date-container{
-  max-width: 350px;
+  max-width: 300px;
   margin: 5px auto;
   background-color: none;
   border-radius: 10px;
