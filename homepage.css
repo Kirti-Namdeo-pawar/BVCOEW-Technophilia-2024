@@ -416,7 +416,7 @@
   font-weight: 400;
 }
 /* CSS for screens wider than 400px */
-@media (min-width: 400px) {
+@media (min-width: 350px) {
   .date-container{
   max-width: 300px;
   margin: 5px auto;
